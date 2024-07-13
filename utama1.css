@@ -1,0 +1,92 @@
+:root {
+  --primary: rgba(193, 124, 4, 0.866);
+  --bg: #ecdede;
+  --bg1: rgb(200, 68, 68);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.admin-cont {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #2d2f2d;
+}
+
+.admin-cont .admin {
+  width: 20em;
+  border-radius: 20px;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 1px 20px black;
+}
+
+.admin1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.daftar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.input input {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: 20px;
+  background: transparent;
+
+  border: solid #000 1px;
+}
+
+form .input label {
+  color: #8d928e;
+  position: absolute;
+  left: 10px;
+  pointer-events: none;
+  padding: 27px 0px 10px;
+}
+
+.admin h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+hr {
+  margin: 20px 15px;
+}
+
+button {
+  background-color: #808080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+}
