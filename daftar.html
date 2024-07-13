@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Online</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="daftar.css" />
+  </head>
+  <body>
+    <div class="admin-cont">
+      <div class="admin">
+        <form action="../daftar/data.php" method="POST" id="formm">
+          <h3>Daftar</h3>
+          <div class="input">
+            <input type="text" name="name" id="nama" placeholder="Nama"  />
+          </div>
+          <div class="input">
+            <input type="text" name="tempat" id="tempat" placeholder="Tempat Lahir" />
+          </div>
+
+          <div class="input">
+            <input type="date" name="date" id="date" placeholder="Tanggal lahir" />
+          </div>
+
+          <div class="input">
+            <input type="text" name="email" id="email" placeholder="email" />
+          </div>
+
+          <div class="input">
+            <input type="password" name="pass" id="pass" placeholder="password" />
+          </div>
+
+          <div class="admin1">
+            <button type="submit" name="daftar">Daftar</button>
+          </div>
+
+          <!-- <div class="daftar">
+            <a href="/daftar/daftar.html">Daftar</a>
+          </div> -->
+        </form>
+      </div>
+    </div>
+     <script defer src="../daftar/daftar.js"></script>
+  </body>
+</html>
